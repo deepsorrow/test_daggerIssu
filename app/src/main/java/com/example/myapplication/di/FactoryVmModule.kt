@@ -14,7 +14,7 @@ class FactoryVmModule {
 
     @Provides
     @Named("TestVM")
-    fun provideGeneralInspectionVM(
+    fun provideTestVM(
         activity: MainActivity,
         viewModelFactory: ViewModelFactory
     ): TestVM =
